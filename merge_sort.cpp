@@ -31,13 +31,13 @@ void merge(int arr[],int l,int m,int r){
 	}
 	
 	while(i<nl){
-		arr[k]==left[i];
+		arr[k]=left[i];
 		i++;
 		k++;
 	}
 	
 	while(j<nr){
-		arr[k]==right[j];
+		arr[k]=right[j];
 		j++;
 		k++;
 	}
